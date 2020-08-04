@@ -9,7 +9,7 @@ oc new-app jenkins-ephemeral
 4.	Run the following command 
 oc get routes
 jenkins-kwspdemo.apps.shared-na4.na4.openshift.opentlc.com
-                 Put that URL (jenkins-kwspdemo.apps.shared-na4.na4.openshift.opentlc.com) into your browser 
+                 Put that URL (jenkins-kwspdemo.apps.<cluster_url>) into your browser 
 
  
 5.	oc create -f https://raw.githubusercontent.com/shaileshnamjoshi/CICD_Demo/master/cicd_pipeline_demo.yaml 
