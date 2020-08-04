@@ -19,11 +19,11 @@ Now the magic happens. At the command line, we can run a command to see the name
 
 7.   oc get buildconfigs
 
-Want to see the pipeline? Use the following command:
-8.   oc get buildconfig/nodejs-sample-pipeline -o yaml
+8. Want to see the pipeline? Use the following command:
+  oc get buildconfig/nodejs-sample-pipeline -o yaml
 
-Use this command to kick off all the action:
-9.   oc start-build nodejs-sample-pipeline
+9. Use this command to kick off all the action:
+  oc start-build nodejs-sample-pipeline
 
 
 
