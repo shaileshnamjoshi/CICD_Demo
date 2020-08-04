@@ -17,13 +17,13 @@ jenkins-kwspdemo.apps.shared-na4.na4.openshift.opentlc.com
 6.	Let’s take it for a spin
 Now the magic happens. At the command line, we can run a command to see the name of the BuildConfig we want to build:
 
-oc get buildconfigs
+7.   oc get buildconfigs
 
 Want to see the pipeline? Use the following command:
-	 oc get buildconfig/nodejs-sample-pipeline -o yaml
+8.   oc get buildconfig/nodejs-sample-pipeline -o yaml
 
 Use this command to kick off all the action:
-oc start-build nodejs-sample-pipeline
+9.   oc start-build nodejs-sample-pipeline
 
 
 
