@@ -3,7 +3,7 @@ Get started with Jenkins CI/CD in Red Hat OpenShift 4
 1.	Login to OpenShift Cluster : oc login --insecure-skip-tls-verify --server="Cluster URL"
 
 2.	Create new project 
-    oc new-project “kwspdemo”
+    oc new-project “<App Name>”
 3.	Create the Jenkins app
     oc new-app jenkins-ephemeral
 4.	Run the following command 
